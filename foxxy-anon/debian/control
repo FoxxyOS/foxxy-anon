@@ -1,0 +1,23 @@
+Source: foxxy-anon
+Section: foxxy
+Priority: optional
+Maintainer: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>
+Uploaders: Lorenzo "Palinuro" Faletra <palinuro@frozenbox.org>,
+           Lisetta "Sheireen" Ferrero <sheireen@frozenbox.org>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: pkg-config
+Homepage: http://www.foxxysec.org/
+
+Package: foxxy-anon
+Architecture: all
+Depends: anonsurf
+Recommends: socat, gufw, polipo, proxychains, openvpn, libnotify-bin, network-manager-openvpn-gnome, network-manager-ssh-gnome, torbrowser-launcher, vidalia
+Suggests: vidalia
+Priority: optional
+Description: Anonymization toolchain
+ This is Foxxy Security OS, the most advanced penetration testing and security
+ auditing distribution.
+ .
+ This metapackage depends on all the packages that are installed by default
+ on any Foxxy system.
